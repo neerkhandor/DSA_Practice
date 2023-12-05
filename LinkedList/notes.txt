@@ -1,0 +1,29 @@
+arrray is used to store data
+in array data is stored in contiguous manner in heap suppose 1st element is at index 100 then next element will surely be at 104 index and so on
+but array is of fixed size su suppose if i have to add an element then it is a difficult task
+but linked list doesnt store data in contiguous location 
+we can store anything in ll similar to array like int,double,list,string,char,etc
+there size can be increased at any moment
+in case of array we were not sure that since its a contiguous location then will the next memory address available or not
+but in ll it will find a place and store it
+in ll we store data as well as next 
+if we can somehow remember what is the next element then we are sorted
+we remember the starting point and we call it as head
+if there is nothing further to add than we will point it to nullptr and that node is called tail of linked list
+so we can easily increase or decrease the size in ll
+we can use it in stack queue where ll is used
+in 1d ll we just have track of next element
+in real life we use it in browser
+search->takeUForward.org->a2z->article->
+<-             <-           <-    <-
+
+in cpp you cannot store memory location for that we require pointer for that memory location to store it
+we are storing data and pointer to the next
+there is no data type that can help you to store two different things
+thats why we require self defined data-type
+if you write something like
+Node* y=new Node(2,nullptr)
+then in this case it will automatically store a pointer to the memory location
+you have to keep track of ll so head will always point to 1st position
+in question like ll they do not require you to return the whole ll they just want the head of ll
+
